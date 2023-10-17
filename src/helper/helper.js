@@ -1,0 +1,1 @@
+export const BASE_URL="https://ankpan18-vendorappbackend.hf.space"

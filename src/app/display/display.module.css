@@ -1,0 +1,70 @@
+.mainContainer{
+    margin: auto;
+    margin-top: 50px;
+    background: seashell;
+    /* background-image: url("D:/all in react/vendor/client/src/concrete.jpg")  fixed center; */
+}
+
+.close{
+    background:seashell;
+    min-height: 90vh;
+    /* background-color: #fff; */
+}
+.close p
+{
+    font-size: 5vh;
+    cursor: pointer;
+    /* background-color: #fff; */
+}
+
+.close h2{
+    text-align: center;
+}
+
+.pagination1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    margin-inline: auto;
+}
+
+.pagination1 ul{
+    flex-wrap:wrap;
+}
+
+.pagination1 ul li{
+    background: #000;
+    border-radius: 25px;
+    color: #fff;
+    margin: 10px 3px;
+    padding: .7vh .3vh;
+}
+
+
+.pagination1 ul li a{
+    padding: 12px;
+    font-size: 17px;
+    text-decoration: none;
+    color: snow;
+}
+
+.pagination1 a:hover{
+    color: rgb(249, 200, 237);
+}
+
+.pagination1 li:hover{
+    background: rgb(49, 27, 146);
+}
+.pagination1 .active{
+        background: rgb(49, 27, 146);
+    }
+
+.warning{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: '__Inter_e66fe9';
+    margin: 50px;
+    text-align: center;
+}

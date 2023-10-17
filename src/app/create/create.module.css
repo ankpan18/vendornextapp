@@ -1,0 +1,126 @@
+.maincont{
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+    background: seashell;
+    min-height: 90vh;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+    width: 70%;
+    border-radius: 30px;
+    /* margin: 20px; */
+    padding: 20px;
+    border: 10px solid rgb(49, 27, 146);
+    background: linear-gradient(135deg, #1fa2ff, #12d8fa, #a6ffcb);
+   
+  }
+  
+  .label {
+    color: #190731;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .input {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    /* background-color: rgb(50, 202, 50); */
+    background-color: rgb(10 60 196);
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .button:active{
+    width: 90px;
+    height: 35px;
+    transform: translateY(5px);
+  }
+  .box1{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-inline: auto;
+  }
+  
+  .box2 {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .pack{
+    width: 100%;
+  }
+  
+  .heading{
+      text-align: center;
+      padding: 3.4vh;
+  }
+
+  .warning{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: '__Inter_e66fe9';
+    margin: 50px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width:1235px) {
+  
+    .form{
+      width: 90%;
+    }
+  }
+  
+  
+  @media only screen and (max-width:1000px) {
+  
+    .input{
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width:580px) {
+  
+    .input{
+      width: 90%;
+      font-size: 16px;
+    }
+    .form{
+      width: 100%;
+      padding: 10px;
+      border: 5px solid rgb(49, 27, 146);
+    }
+    .box1{
+      width: 100%;
+    }
+    .box2{
+      font-size: 16px;
+    }
+    .label{
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }

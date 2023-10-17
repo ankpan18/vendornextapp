@@ -19,7 +19,8 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-paginate": "^8.2.0",
-    "react-router-dom": "^6.16.0"
+    "react-router-dom": "^6.16.0",
+    "styled-jsx": "^5.1.2"
   },
   "devDependencies": {
     "eslint": "^8",
